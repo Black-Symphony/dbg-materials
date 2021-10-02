@@ -1,5 +1,4 @@
-module YayPrivateFramework {
-  umbrella header "dyld_priv.h"
+module YayModule {
+  header "Private.h"
   export *
-  module * { export * }
 }
