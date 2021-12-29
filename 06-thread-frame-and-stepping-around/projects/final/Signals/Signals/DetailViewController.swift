@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import UIKit
+import Commons
 
 enum BreakpointError: Error {
   case TestError

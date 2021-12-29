@@ -35,6 +35,7 @@
 {
   return [self valueWithBytes:&value objCType:@encode(siginfo_t)];
 }
+
 - (siginfo_t)siginfoValue
 {
   siginfo_t value;
